@@ -6,7 +6,7 @@
 		{
 			"label": "YDB",
 			"type": "shell",
-			"command": "sudo bash -c 'ssh -o \"StrictHostKeyChecking Off\" root@sandbox_yottarust_1 \"export ydb_dir=\"/data\" && /opt/yottadb/current/ydb\"'"
+			"command": "sudo chmod 0600 /root/.ssh/id_rsa && sudo bash -c 'ssh -o \"StrictHostKeyChecking Off\" root@sandbox_yottarust_1 \"export ydb_dir=\"/data\" && /opt/yottadb/current/ydb\"'"
 		},
         {
 			"label": "YottaDB Compiler",
@@ -16,12 +16,12 @@
                 {
                         "label": "Rust compiler",
                         "type": "shell",
-                        "command": "sudo bash -c 'ssh -o \"StrictHostKeyChecking Off\" root@sandbox_yottarust_1 \"cd /usr/local/YDBRust && cargo build\"'"
+                        "command": "sudo chmod 0600 /root/.ssh/id_rsa && sudo bash -c 'ssh -o \"StrictHostKeyChecking Off\" root@sandbox_yottarust_1 \"cd /usr/local/YDBRust && cargo build\"'"
                 },
                 {
                         "label": "Rust Run",
                         "type": "shell",
-                        "command": "sudo bash -c 'ssh -o \"StrictHostKeyChecking Off\" root@sandbox_yottarust_1 \"cd /usr/local/YDBRust && cargo run\"'"
+                        "command": "sudo chmod 0600 /root/.ssh/id_rsa && sudo bash -c 'ssh -o \"StrictHostKeyChecking Off\" root@sandbox_yottarust_1 \"cd /usr/local/YDBRust && cargo run\"'"
                 },
 
 
