@@ -24,7 +24,7 @@ Then clone this repo
 
 Set the persistent YottaDB and Rust paths
 
-      export yottadatadir="/path/to/yottadata"
+      export yottadatadir="/path/to/YottaDB"
       export rustcode="/path/to/YDBRust"
 
 Provision the stack:
