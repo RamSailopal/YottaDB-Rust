@@ -101,6 +101,6 @@ Run the Rust code:
 
 # SSH Keys
 
-This repo contains ssh keys for demonstation/sandpit purposes only. For a production environment, please set up new keys.
+This repo contains ssh keys for demonstation/sandpit purposes only. For a production environment, please set up new, none source controlled keys.
 
 
