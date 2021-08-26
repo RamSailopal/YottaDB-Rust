@@ -31,4 +31,18 @@ Provision the stack
 
      docker-compose up
 
+# Beginning development
+
+Navigate to http://ipofdockerserver:3002/#/home/yottadb-settings/Yottadb.theia-workspace
+
+Open a commpilation window:
+
+   Terminal -> Run Task -> YottaDB Compiler
+
+Open the say_hello_rust example:
+
+   File -> Open -> examples -> say_hello_rust.rs
+
+This examples sets the global entry ^hello("Rust") to a value.
+
 
