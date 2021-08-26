@@ -1,12 +1,12 @@
 #
 #       AUTHOR - Raman Sailopal
 #
-#       docker compose yml file for the YottaDB-Dashboard stack
+#       docker compose yml file for the YottaDB/Rust/Theia IDE stack
 #
 version: "2"
 services:
  yottarust:
-   image: ramb0/yotta-rust:latest
+   image: docker.io/ramb0/yotta-rust:latest
    networks:
       - yottanet
    mem_limit: 1G
