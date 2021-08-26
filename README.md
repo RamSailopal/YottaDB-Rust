@@ -39,10 +39,31 @@ Open a commpilation window:
 
    Terminal -> Run Task -> YottaDB Compiler
 
-Open the say_hello_rust example:
+Open the **say_hello_rust** example:
 
-   File -> Open -> examples -> say_hello_rust.rs
+   **File** -> **Open** -> **examples** -> **say_hello_rust.rs**
 
-This examples sets the global entry ^hello("Rust") to a value.
+This examples sets the global entry **^hello("Rust")** to a value.
+
+Change the こんにちは entries to something else i.e. "Yotta"
+
+Save the file
+
+The compilation window should then show the compilation and execution of the code (note the first execution take time as the dependancies are built)
+
+Once **Running `target/debug/examples/say_hello_rust`** has completed compilation and has run
+
+Open a YottaDB environment window:
+
+    Terminal -> Run Task -> YDB
+    
+In the new window, enter:
+
+    D ^%G
+    ^hello
+    
+The new ^hello("Rust") entry should now display
+
+
 
 
