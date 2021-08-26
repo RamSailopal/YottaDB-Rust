@@ -44,7 +44,7 @@ Open the **say_hello_rust** example:
 
    **File** -> **Open** -> **examples** -> **say_hello_rust.rs**
 
-This example sets the global entry **^hello("Rust")** to a value.
+This example sets the global entry **^hello("Rust")** to こんにちは.
 
 Change the こんにちは entries to something else i.e. "Yotta"
 
