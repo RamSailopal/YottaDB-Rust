@@ -2,7 +2,7 @@
 
 This repo allows the provision of a development environment through docker that gives you everything that you need to develop with Rust and YottaDB
 
-# Sandbox
+# sandbox
 
 The sandbox environment is an immutable environment with no persistent code base or database. To provision:
 
