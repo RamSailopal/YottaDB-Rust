@@ -27,8 +27,9 @@ Set the persistent YottaDB and Rust paths
       export yottadatadir="/path/to/yottadata"
       export rustcode="/path/to/YDBRust"
 
-Provision the stack
+Provision the stack:
 
+     cd YottaDB-Rust/dev
      docker-compose up
 
 # Beginning development
