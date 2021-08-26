@@ -63,7 +63,7 @@ In the new window, enter:
     D ^%G
     ^hello
     
-The ^hello("Rust") entry should now display as Yotta
+The **^hello("Rust")** global/subscript entry should now display as **Yotta**
 
 
 # Building a project
