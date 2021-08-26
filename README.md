@@ -65,5 +65,31 @@ In the new window, enter:
 The ^hello("Rust") entry should now display as Yotta
 
 
+# Building a project
+
+Create a main.rs file in the src folder:
+
+
+     **File** -> **Open** -> **src**
+     
+     **File** -> **New File**
+     
+Add the example Hello World Code:
+
+     fn main() {
+        println!("Hello, world!");
+     }
+     
+Save the file
+
+Run the Rust compiler:
+
+    **Terminal** -> **Run Task** -> **Rust Compiler**
+    
+Run the Rust code:
+
+    **Terminal** -> **Run Task** -> **Rust Run**
+    
+**Hello, world!** should appear at the bottom of the Rust Run window
 
 
