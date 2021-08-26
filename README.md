@@ -36,7 +36,7 @@ Provision the stack:
 
 Navigate to http://ipofdockerserver:3002/#/home/yottadb-settings/Yottadb.theia-workspace
 
-Open a commpilation window:
+Open a compilation window:
 
    **Terminal** -> **Run Task** -> **YottaDB Compiler** -> **Continue without scanning the task output**
 
