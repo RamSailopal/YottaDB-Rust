@@ -62,7 +62,7 @@ In the new window, enter:
     D ^%G
     ^hello
     
-The new ^hello("Rust") entry should now display
+The ^hello("Rust") entry should now display as Yotta
 
 
 
