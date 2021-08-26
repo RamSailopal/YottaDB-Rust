@@ -4,7 +4,7 @@ This repo allows the provision of a development environment through docker that 
 
 # Sandbox
 
-The sandbox environment is an immutable environment with no persistent code base or storage. To provision:
+The sandbox environment is an immutable environment with no persistent code base or database. To provision:
 
       git clone https://github.com/RamSailopal/YottaDB-Rust.git
       cd YottaDB-Rust/sandbox
