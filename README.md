@@ -1,6 +1,6 @@
 # Introduction
 
-This repo allows the provision of a development environment through docker that gives you everything that you need to develop with Rust and YottaDB
+This repo allows the provision of a development environment through docker that gives you everything that you need to develop with Rust and YottaDB. There is an IDE to write code as well as a YottaDB global viewer web UI
 
 # sandbox
 
@@ -26,6 +26,10 @@ Set the persistent YottaDB and Rust paths
 
       export yottadatadir="/path/to/YottaDB"
       export rustcode="/path/to/YDBRust"
+      export yottaver="r1.32_x86_64"
+      export glbviewadd="192.168.240.1"
+      
+Where glbviewadd is the address of the server/machine running Docker.
 
 Provision the stack:
 
@@ -99,8 +103,19 @@ Run the Rust code:
 **Hello, world!** should appear at the bottom of the Rust Run window
 
 
+# YottaDB Global Viewer Web UI
+
+The global viewer will be available on:
+
+http://ipaddressofdockerserver:8001
+
+
 # SSH Keys
 
 This repo contains ssh keys for demonstation/sandpit purposes only. For a production environment, please set up new, none source controlled keys.
+
+
+
+
 
 
