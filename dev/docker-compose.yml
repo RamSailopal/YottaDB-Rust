@@ -28,6 +28,22 @@ services:
       - ../project:/home/yottadb-settings
       - ../.ssh:/root/.ssh
       - .theia:/home/theia/.theia
+ yottaglbview:
+   image: docker.io/ramb0/yotta-glbview:latest
+   ports:
+      - 8001:8001
+   environment:
+     - glbviewport=8001
+     - glbviewadd=$glbviewadd
+     - yotta_dir=/data
+     - ydb_dir=/data
+     - ydb_rel=$yottavers
+     - ydb_gbl="/data/$yottavers/g/yottadb"
+   networks:
+      - yottanet
+   volumes:
+      - "$yottadatadir:/data"
+
 
 networks:
     yottanet:
