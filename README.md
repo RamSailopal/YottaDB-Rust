@@ -109,6 +109,8 @@ The global viewer will be available on:
 
 http://ipaddressofdockerserver:8001
 
+**Note - The global viewer only works with dev environments and persistent storage.**
+
 
 # SSH Keys
 
