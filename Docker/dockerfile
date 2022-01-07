@@ -1,7 +1,7 @@
 FROM docker.io/yottadb/yottadb-base 
-COPY rcomp.sh /usr/local/bin/rcomp.sh
-COPY start.sh /usr/local/bin/start.sh
-COPY rcopy.sh /usr/local/bin/rcopy.sh
+COPY Docker/rcomp.sh /usr/local/bin/rcomp.sh
+COPY Docker/start.sh /usr/local/bin/start.sh
+COPY Docker/rcopy.sh /usr/local/bin/rcopy.sh
 RUN apt-get update
 RUN apt-get install -y openssh-server 
 RUN apt-get install -y clang 
