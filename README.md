@@ -1,5 +1,7 @@
 # Introduction
 
+![example workflow](https://github.com/RamSailopal/YottaDB-Rust/actions/workflows/deploy.yml/badge.svg)
+
 This repo allows the provision of a development environment through docker that gives you everything that you need to develop with Rust and YottaDB. There is an IDE to write code as well as a YottaDB global viewer web UI
 
 # sandbox
