@@ -28,7 +28,7 @@ Set the persistent YottaDB and Rust paths
 
       export yottadatadir="/path/to/YottaDB"
       export rustcode="/path/to/YDBRust"
-      export yottaver="r1.32_x86_64"
+      export yottavers="r1.32_x86_64"
       export glbviewadd="192.168.240.1"
       
 Where glbviewadd is the address of the server/machine running Docker.
